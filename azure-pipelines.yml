@@ -4,8 +4,8 @@
 # https://docs.microsoft.com/azure/devops/pipelines/languages/python
 # This is the completed azure-pipelines.yaml file from previous steps.
 variables:
-  ConnectedServiceName: '<your-service-connection>'
-  WebAppName: 'msdocs-flaskpipelines'
+  ConnectedServiceName: 'ctlieu001_AzureSubs'
+  WebAppName: 'flaskpipeline97'
 
 trigger:
 - master
