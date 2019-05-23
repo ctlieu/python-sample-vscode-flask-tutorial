@@ -5,7 +5,7 @@
 # This is the completed azure-pipelines.yaml file from previous steps.
 variables:
   ConnectedServiceName: 'ctlieu001_AzureSubs'
-  WebAppName: 'flaskpipeline97'
+  WebAppName: 'hlf-indy'
 
 trigger:
 - master
