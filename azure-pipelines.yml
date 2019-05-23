@@ -1,0 +1,17 @@
+# Python package
+# Create and test a Python package on multiple Python versions.
+# Add steps that analyze code, save the dist with the build record, publish to a PyPI-compatible index, and more:
+# https://docs.microsoft.com/azure/devops/pipelines/languages/python
+
+trigger:
+- master
+
+pool:
+  vmImage: 'ubuntu-16.04'
+
+steps:
+- script: echo Hello, iceman
+  displayName: 'Run one line script'
+
+- script: echo Add another line
+  displayName: 'Run multiple line script'
